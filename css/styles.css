@@ -1,3 +1,100 @@
-h1{
-    color: red;
+/*FONT*/
+@import url('https://fonts.googleapis.com/css2?family=Rosarivo:ital@0;1&display=swap');
+
+/*CSS FOR MOBILE*/
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: Rosarivo;
+}
+
+header{
+    width: 100vw;
+    /* height: 10vh; */
+    background-color: white;
+    box-shadow: 0 0 10px #777777;
+}
+
+.navbar {
+    border: 1px solid green;
+    
+    padding: 2.4rem 1.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    border: 1px solid purple;
+}
+
+.nav {
+    border: 1px solid turquoise;
+    
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+.nav li {
+    border: 1px solid darkgoldenrod;
+    padding-left: 10px;
+    font-size: 1.8rem;
+    line-height: 25px;
+
+color: #000000;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+.contact {
+    display: none;
+}
+
+.hero {
+    background-image: url(../images/HERO.jpg);
+
+}
+/* main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    padding-top: 10vh;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+section{
+    width: 45vw;
+    height: 45vh;
+    color: white;
+    box-shadow: 0 0 10px #777777;
+}
+.call{
+    font-family: 'Rosarivo', serif;
+    font-size: 3em;
+    position: absolute;
+    border: 1px solid red;
+}
+.button{
+    background-color: white;
+    color: gray;
+    border: 2px solid gray;
+    border-radius: 5px;
+    position: absolute;
+} */
+/*CSS FOR DESKTOP*/
+@media screen and (min-width: 769px) {
+    .contact {
+        display: block;
+    }
+    section{
+        width: 45vw;
+        height: 45vh;
+    }
 }
