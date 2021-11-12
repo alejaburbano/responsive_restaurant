@@ -13,19 +13,24 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
+    <a href="#">
+        <div class="arrow">
+            <img src="./icons/icons8-collapse-arrow-50.png" alt="arrow">
+        </div>
+    </a>
     <header>
         <nav class="navbar">
-            <a class="logo" href="#">
+            <a href="#">
                 <img src="./images/damore-logo.png" alt="storia damore">
             </a>
             <ul class="nav">
-                <a href="#">
+                <a href="#lunch">
                     <li>Lunch</li>
                 </a>
-                <a href="#">
+                <a href="#dinner">
                     <li>Dinner</li>
                 </a>
-                <a href="#" class="contact">
+                <a href="#attention" class="contact">
                     <li>Contact</li>
                 </a>
             </ul>
@@ -45,8 +50,8 @@
             </div>
         </section>
         <!--Section lunch-->
-        <section class="section_lunch">
-            <h1 class="text_lunch">LUNCH</h1>
+        <section id="lunch" class="section_lunch">
+            <h1  class="text_lunch">LUNCH</h1>
             <div class="lunch_all">
                 <article class="card_lunch">
                     <aside class="card_lunch_aside">
@@ -145,8 +150,8 @@
             </div>
         </section>
         <!--Section dinner-->
-        <section class="section_lunch">
-            <h1 class="text_lunch">DINNER</h1>
+        <section id="dinner" class="section_lunch">
+            <h1  class="text_lunch">DINNER</h1>
             <div class="lunch_all">
                 <article class="card_lunch">
                     <aside class="card_lunch_aside">
@@ -243,6 +248,22 @@
             </div>
         </section>
     </main>
+    <footer id="attention" class="footer">
+        <a href="#">
+            <img src="./images/logo_storia_white.png" alt="storia damore white">
+        </a>
+        <div>
+            <p class="hours">Business hours are between 11 to 20h.</p>
+            <div class="phone_contact">
+                <img class="image_phone" src="./icons/icons8-phone-50.png" alt="phone storia">
+                <p class="text_phone">Phone: (2) 348 15 30</p>
+            </div>
+            <div class="phone_contact">
+                <img class="image_phone" src="./icons/icons8-location-pin-50.png" alt="location storia">
+                <p class="text_phone">Av. 9 Nte. #14-57</p>
+            </div>
+        </div>
+    </footer>
     
 </body>
 </html>
